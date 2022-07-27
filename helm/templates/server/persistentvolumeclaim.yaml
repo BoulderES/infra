@@ -16,7 +16,7 @@ spec:
   storageClassName: {{ .Values.server.persistence.className | quote }}
 {{- end }}
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   resources:
 {{- toYaml .Values.server.persistence.resources | nindent 6 }}
 {{- end }}
