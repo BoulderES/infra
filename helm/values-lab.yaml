@@ -65,7 +65,7 @@ server:
     dbName: gitlabhq_production
     dbUsername: postgres
     dbPassword: ch4ng3m3
-    dbEncryptionKey: "/tmp/sqlite3.db.key"
+#    dbEncryptionKey: "/var/lib/infrahq/server/sqlite3.db.key"
 
     ## Additional grants to configure
     grants:
