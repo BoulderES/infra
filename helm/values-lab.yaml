@@ -1,8 +1,8 @@
 # Default configurations
 # Ref: https://github.com/infrahq/infra
 
-nameOverride: ""
-fullnameOverride: ""
+nameOverride: "infra-name"
+fullnameOverride: "infra-name-full"
 
 # Default server configurations
 server:
