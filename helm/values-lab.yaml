@@ -65,6 +65,7 @@ server:
     dbName: gitlabhq_production
     dbUsername: postgres
     dbPassword: ch4ng3m3
+    dbEncryptionKey: "/tmp"
 
     ## Additional grants to configure
     grants:
