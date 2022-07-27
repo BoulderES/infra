@@ -60,7 +60,7 @@ server:
 
   ## Primary server configuration
   config:
-    dbHost: postgres-postgresql-ha-postgresql.postgres.svc.cluster.local
+    dbHost: postgres-postgresql-ha-pgpool.postgres.svc.cluster.local
     dbPort: 5432
     dbName: gitlabhq_production
     dbUsername: postgres
