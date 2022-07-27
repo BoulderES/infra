@@ -4,8 +4,6 @@
 nameOverride: ""
 fullnameOverride: ""
 
-global:
-
 # Default server configurations
 server:
 
