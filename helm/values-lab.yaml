@@ -60,6 +60,12 @@ server:
 
   ## Primary server configuration
   config:
+    dbHost: postgres-postgresql-ha-postgresql.postgres.svc.cluster.local
+    dbPort: 5432
+    dbName: gitlabhq_production
+    dbUsername: postgres
+    dbPassword: ch4ng3m3
+
     ## Additional grants to configure
     grants:
       # 1. Grant user(s) or group(s) as Infra administrator
